@@ -15,9 +15,11 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
 }
-backgroundimage{
-  position: relative;
-  opacity: .7;
-  background-position: center;
-  background-size: cover;
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.grid-item {
+  text-align: center;
+  
 }
